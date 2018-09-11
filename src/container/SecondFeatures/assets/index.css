@@ -1,0 +1,24 @@
+.color-icon i {
+    columns: #777777;;
+}
+
+.lnr-moon {
+    display: block;
+    color:dodgerblue;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.lnr-star {
+    display: block;
+    color:dodgerblue;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.lnr-drop {
+    display: block;
+    color:dodgerblue;
+    font-size: 40px;
+    margin-bottom: 12px;
+}

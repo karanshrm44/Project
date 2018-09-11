@@ -1,0 +1,9 @@
+.rpicture {
+    max-width: 100%;
+    height: auto;
+}
+
+.rpicture-layout {
+    border-radius: 10px;
+    box-shadow: 0px 9px 68px 0px rgba(62, 57, 107, 0.2);
+}

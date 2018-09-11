@@ -1,0 +1,33 @@
+@media (min-width:992px)
+{
+    .client-logos {
+        padding-left:1em;
+        padding-right: 1em;
+    }
+}
+
+
+.negative-margin {
+    margin-top:-180px;
+}
+
+@media (max-width:991px)
+{
+    .negative-margin {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 767px)
+{
+.client-logos.negative-margin {
+    margin-top: -100px;
+}
+}
+
+@media (max-width: 575px)
+{
+.client-logos.negative-margin {
+    margin-top: -70px;
+}
+}

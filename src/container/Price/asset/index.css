@@ -1,0 +1,103 @@
+.price {
+    padding:5em 0px !important;
+    background-color: #f8faff;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    margin-top: -5px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.pricing {
+    text-align: center;
+    padding: 20px;
+    border:0px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.pricing small {
+    letter-spacing: 2px;
+    font-size: 100%;
+}
+
+.pricing .card-title {
+    font-size: 65px;
+    font-family: "Product Sans", Helvetica, Arial, serif;
+    font-weight: 700;
+    margin: 10px 0px 15px;
+}
+
+.pricing ul {
+    line-height: 2.5em;
+    margin:0 0 20px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #7642FF;
+    color:#fff !important;
+}
+
+.button_back {
+    background-color: #7642FF!important;
+    color:#fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+.price_button {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 30px;
+    padding:10px 45px;
+    color:#7642FF;
+    border:1px solid  #7642FF;
+    cursor: pointer;
+}
+
+.price_button:hover {
+    color:#fff;
+    background-color: #7642FF
+}
+.price_button_middle {
+
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: #7642FF;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 30px;
+    padding:10px 45px;
+    color:#fff;
+    border:1px solid  #7642FF;
+    cursor: pointer;
+
+}
+
+
+a:hover {
+    color:#fff;
+}

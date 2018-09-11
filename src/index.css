@@ -1,0 +1,10 @@
+body {
+  position: relative;
+  overflow-x: hidden;
+  color: #3e396b;
+}
+
+
+* {
+  box-sizing: border-box;
+}

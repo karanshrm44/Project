@@ -1,0 +1,29 @@
+
+.lpicture_layout {
+    display: inline-block;
+    margin: 0px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(137, 149, 199, 0.15), 0 15px 12px rgba(137, 149, 199, 0.08);
+}
+
+.lpicture_margin {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lpicture_marginright {
+    margin-right: 0;
+}
+
+@media(min-width:576px)
+{
+    .lpicture_marginsmallright {
+         margin-right: 3rem;
+    }
+}
+.lpicture_layout img{
+    width: 100%;
+    height: auto;
+}

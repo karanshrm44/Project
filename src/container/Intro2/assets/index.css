@@ -1,0 +1,103 @@
+.intro2margin {
+    padding-top:200px;
+}
+
+.jumbotron {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+
+@media (min-width: 576px) {
+.jumbotron {
+    padding: 2rem 0;
+}
+}
+
+.intro2 h1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 68px;
+    z-index:100;
+
+}
+
+.intro2 p {
+    position: relative;
+    max-width: 600px;
+    margin:1.5rem auto;
+    font-size: 1.25rem;
+    font-weight: 300;
+    z-index: 100;
+    
+}
+
+.intro2 .btn {
+    margin:10px;
+}
+
+.intro2 .intro2-button {
+    padding: 17px 35px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+
+.bg-shapes {
+    position: absolute;
+    background-color: #7642FF;
+    right: -110px;
+    top: -350px;
+    border-radius: 8%;
+    width: 50%;
+    height: 720px;
+    opacity: 1;
+    transform: skew(3deg,30deg);
+    background-image: linear-gradient(100deg, #7642FF, #4259ff);
+    z-index:1;
+}
+
+.bg-circles {
+    position: absolute;
+    background-color: #7642FF;
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    opacity: 0.2;
+    left:-350px;
+    top:-400px;
+}
+
+
+@media (max-width: 767px)
+{
+.bg-shapes {
+    display: none;
+}
+.bg-circles {
+    display: none;
+}
+
+}
+
+@media (max-width: 991px)
+{
+.bg-shapes {
+    top: -150px;
+    right: 0;
+    width: 20%;
+    height: 450px;
+}
+.bg-circles {
+    height: 400px;
+    width: 400px;
+    top: -200px;
+    left: -200px;
+}
+
+   
+
+}
+

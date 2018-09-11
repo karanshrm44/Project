@@ -1,0 +1,23 @@
+.signup_back {
+    background-color: #fff !important;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding:5px 20px;
+    height: 55px;
+    border-color: #ebebed;
+}
+
+.signup_btn {
+    display: block;
+    width:100%;
+    border-radius: 30px;
+    padding:5px 20px;
+    height: 55px;
+    background: #7642FF;
+    color:#fff;
+}
+
+
+
