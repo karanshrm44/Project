@@ -1,5 +1,5 @@
 .intro2margin {
-    padding-top:200px;
+    padding-top:0;
 }
 
 .jumbotron {
@@ -12,6 +12,10 @@
 @media (min-width: 576px) {
 .jumbotron {
     padding: 2rem 0;
+
+}
+.intro2margin {
+    padding-top:200px;
 }
 }
 
@@ -47,7 +51,7 @@
 
 .bg-shapes {
     position: absolute;
-    background-color: #7642FF;
+    background-color:#7642FF;
     right: -110px;
     top: -350px;
     border-radius: 8%;

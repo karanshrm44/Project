@@ -1,5 +1,6 @@
 .macbook {
     background:linear-gradient(to bottom, #f8faff 0%, #f8faff 50%, white 50%);
+    position: relative;
 }
 
 .macbook .macbook-hero {

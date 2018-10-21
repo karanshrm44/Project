@@ -1,0 +1,61 @@
+.iso {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    bottom: 20px;
+    left:300px;
+
+}
+
+.isoone {
+    position: relative;
+    height: 200px;
+    width: 150px;
+    background: rgba(0, 0, 0, 1);
+    transform: rotate(-30deg) skew(25deg) scale(0.8);
+    transition: 0.5s;
+
+}
+
+@keyframes updown {
+    0% {
+        top: 0%;
+    }
+
+    50% {
+        top: 5%;
+    }
+
+    100% {
+        top: 0%;
+    }
+}
+
+.isoone img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.isoone:hover img:nth-child(4) {
+    transform: translate(160px, -160px);
+    opacity: 1;
+}
+.isoone:hover img:nth-child(3) {
+    transform: translate(120px, -120px);
+    opacity: 0.8;
+}
+.isoone:hover img:nth-child(2) {
+    transform: translate(80px, -80px);
+    opacity: 0.6;
+}
+.isoone:hover img:nth-child(1) {
+    transform: translate(40px, -40px);
+    opacity: 0.4;
+}
